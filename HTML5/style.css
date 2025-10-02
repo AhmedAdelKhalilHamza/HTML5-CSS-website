@@ -1,0 +1,33 @@
+body {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  background-color: #7f596b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+.logo {
+  width: 100px;
+}
+.header-links a {
+  color: white;
+  padding: 5px 15px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+.header-links a:hover {
+  background-color: #a57f91;
+}
+.header-links button {
+  background-color: #d71360;
+  color: #ffffff;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 15px;
+}
+.header-links button:hover {
+  background-color: #ef4889;
+}
