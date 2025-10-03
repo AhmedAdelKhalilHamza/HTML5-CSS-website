@@ -2,6 +2,7 @@ body {
   margin: 0px;
   font-family: "Roboto", sans-serif;
 }
+
 .header {
   background-color: #7f596b;
   display: flex;
@@ -9,25 +10,83 @@ body {
   align-items: center;
   padding: 10px 50px;
 }
+
 .logo {
   width: 100px;
 }
-.header-links a {
-  color: white;
-  padding: 5px 15px;
-  text-decoration: none;
-  border-radius: 15px;
-}
-.header-links a:hover {
-  background-color: #a57f91;
-}
-.header-links button {
+
+.btn {
   background-color: #d71360;
   color: #ffffff;
   border: none;
   padding: 5px 15px;
   border-radius: 15px;
 }
+
+.btn:hover {
+  background-color: #a57f91;
+}
+
+.header-links a {
+  color: white;
+  padding: 5px 15px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
 .header-links button:hover {
   background-color: #ef4889;
+}
+
+.landing-page {
+  background-color: #7f596b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 50px;
+  color: #ffffff;
+  border-radius: 0px 0px 50px 50px;
+}
+
+.landing-page-search input {
+  border: none;
+  padding: 0px 10px;
+  height: 30px;
+  border-radius: 50px;
+  outline: none;
+}
+
+.landing-page-search button {
+  position: absolute;
+  left: 200px;
+  height: 30px;
+}
+
+.landing-page-image-container img {
+  border-radius: 20px;
+  width: 250px;
+}
+
+.landing-page-left-section {
+  width: 500px;
+}
+
+.trending-container {
+  padding: 25px 50px;
+}
+
+.trending-container span {
+  color:#7f596b;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.trending-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trending-header h1 {
+  margin-top: 0px;
 }
